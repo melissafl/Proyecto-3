@@ -1,0 +1,84 @@
+.header {
+  background-image: url("/assets/fondo2.jpg");
+  background-size: contain;
+  background-repeat: round;
+  height: 500px;
+  /*background: linear-gradient(to right, #7addee, #063352);*/
+}
+
+.col {
+  color: #fff;
+  font-size: 100px;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  font-family: "Segoe UI";
+  font-weight: bolder;
+}
+
+.contenido {
+  display: flex;
+}
+
+.iz {
+  background: linear-gradient(to bottom, rgba(0, 44, 119, 255), #12b6df);
+  /*background-image: url("/assets/fondo2\ -\ copia.jpg");*/
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
+.iz h2 {
+  text-align: left;
+  color: #48f4fd;
+  font-weight: bold;
+}
+
+.iz p {
+  padding-top: 50px;
+  color: #fff;
+}
+
+.loader-container {
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(78, 78, 78, 0.5);
+}
+
+.spiner {
+  width: 50px;
+  height: 50px;
+  /* Siempre para crear un circulo el border-radius debe ser de 50% */
+  border-radius: 50%;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3498db;
+  /* animation: nombre duracion tipo ciclo */
+  animation: spin 2s linear infinite;
+}
+
+.dates-container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#dateInterval {
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 10px;
+  width: 200px;
+}
+
+#dateInterval option {
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 6px 10px;
+}
